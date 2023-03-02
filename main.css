@@ -1,0 +1,81 @@
+body { 
+	background: linear-gradient(112.1deg, rgb(32, 38, 57) 11.4%, rgb(63, 76, 119) 70.2%);
+	font-family:      Georgia, "Times New Roman", Times, serif;
+	font-size:        1.2en;
+	margin:           0px;
+	color: 			  white;
+}
+
+header.top {
+	
+	background: linear-gradient(90deg, rgba(0,206,255,1) 0%, rgba(1,232,255,1) 62%, rgba(0,245,255,0.9640231092436975) 100%);
+	background: linear-gradient(180.2deg, rgb(120, 85, 137) -6.9%, rgb(35, 9, 31) 76.7%);
+	margin: 10px 10px 0px 10px;
+	height:           140px;
+	border-style: ridge;
+	color: black;
+    -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+header.top h2#headerSlogan {
+	float: right;
+}
+h2 {
+	-webkit-text-fill-color: white; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+
+}
+nav {
+	background: linear-gradient(180.2deg, rgb(120, 85, 137) -6.9%, rgb(35, 9, 31) 76.7%);
+	margin: 10px 10px 0px 10px;
+	border-style: ridge;
+}
+nav ul {
+	margin: 0px;
+	list-style-type: none;
+	padding: 5px 0px 5px 0px;
+}
+nav ul li {
+	display: inline;
+	padding: 5px 10px 5px 10px;
+}
+
+nav ul li a:link, nav ul li a:visited {
+	color: DodgerBlue;
+	border-bottom: none;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+li.selected {
+	background-color: yellow;
+}
+
+div#mainSection {
+	background: rgb(0,206,255);
+	background: linear-gradient(90deg, rgba(0,206,255,1) 0%, rgba(1,232,255,1) 62%, rgba(0,245,255,0.9640231092436975) 100%);
+	background: linear-gradient(180.2deg, rgb(120, 85, 137) -6.9%, rgb(35, 9, 31) 76.7%);
+	max-width: 750px;
+	margin: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-size:        105%;
+	padding:          15px;
+	vertical-align: top;
+	border-style: ridge;
+}
+div#phpMain {
+	background: rgb(0,206,255);
+	background: linear-gradient(90deg, rgba(0,206,255,1) 0%, rgba(1,232,255,1) 62%, rgba(0,245,255,0.9640231092436975) 100%);
+	background: linear-gradient(180.2deg, rgb(120, 85, 137) -6.9%, rgb(35, 9, 31) 76.7%);
+	max-width: 950px;
+	margin: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-size:        105%;
+	padding:          15px;
+	vertical-align: top;
+	border-style: ridge;
+}
