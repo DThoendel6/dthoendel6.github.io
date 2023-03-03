@@ -92,3 +92,22 @@ div#wheelSection {
 	vertical-align: top;
 	border-style: ridge;
 }
+div#yahtzeeSection {
+	background: rgb(0,206,255);
+	background: linear-gradient(90deg, rgba(0,206,255,1) 0%, rgba(1,232,255,1) 62%, rgba(0,245,255,0.9640231092436975) 100%);
+	background: linear-gradient(180.2deg, rgb(120, 85, 137) -6.9%, rgb(35, 9, 31) 76.7%);
+	max-width: 1160px;
+	margin: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-size:        105%;
+	padding:          15px;
+	vertical-align: top;
+	border-style: ridge;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
