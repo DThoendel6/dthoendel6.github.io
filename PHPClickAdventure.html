@@ -17,7 +17,6 @@
 		<li><a href="index.html">Home</a></li>
 		<li><a href="Yahtzee.html">C# Yahtzee</a></li>
 		<li class="selected"><a href="PHPClickAdventure.html">Click Adventure</a></li>
-		<li><a href="WheelOfFortune.html">Group Project</a></li>
 	</ul>
 	</nav>
 	<div id="phpMain">
@@ -73,15 +72,15 @@
 		<h3>A look at the database</h3>
 		<p id="database">
 		<img src="images/ClickDBOutline.JPG" alt="A look at the tables in the database.">
-		<img src="images/ClickDBPlayersTable.JPG" alt="Players table">
+		<img src="images/ClickDBPlayersTable.JPG" alt="Players table"><br>
 		In the Players table, passwords are hashed and then the hash of the password is stored.
 		</p>
 		<p>
-		<img src="images/ClickDBEndingsTable.JPG" alt="A table of the endings and their id's">
+		<img src="images/ClickDBEndingsTable.JPG" alt="A table of the endings and their id's"><br>
 		This Endings table shows all of the endings and the id associated with that ending.
 		</p>
 		<p>
-		<img src="images/ClickDBEndingTable.JPG" alt="Ending table">
+		<img src="images/ClickDBEndingTable.JPG" alt="Ending table"><br>
 		The Ending (not plural) table saves each ending reached by each player, but only the first
 		time that player reached the ending. In hindsight, EndingName could've been left out of this
 		table, as that information is retrieved from the Endings table via the EndingID column in 
@@ -91,7 +90,7 @@
 		that player reached.
 		</p>
 		<p>
-		<img src="images/ClickDBLocationsTable.JPG" alt="Locations table">
+		<img src="images/ClickDBLocationsTable.JPG" alt="Locations table"><br>
 		It's important to note that when playing through the game, each time new text and buttons
 		pop up, that you are in a new 'area,' even though your character might still be standing in
 		the same place. Each 'area' is just each set of text for the story. Every areaID will have an 
@@ -101,7 +100,7 @@
 		in order to get the button option to continue on a different path on that screen.
 		</p>
 		<p>
-		<img src="images/ClickDBButtonsTable.JPG" alt="Buttons table">
+		<img src="images/ClickDBButtonsTable.JPG" alt="Buttons table"><br>
 		Each button has a buttonID. The buttonAreaID is the screen, or 'area,' that that button will show
 		itself on. buttonNextAreaID is the area that button will take you too. buttonText is what the
 		button says. buttonEndingID is from the Endings table, and awarded when you reach each game over
